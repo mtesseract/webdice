@@ -1,5 +1,5 @@
 var main = require('../src/Main.purs').main;
-var initialState = require('../src/Layout.purs').init;
+var initialState = require('../src/Dice.purs').init;
 
 if(module.hot) {
 	var app = main(window.puxLastState || initialState)();
