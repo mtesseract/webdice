@@ -1,0 +1,17 @@
+{
+  "name": "webdice",
+  "homepage": "https://github.com/mtesseract/webdice",
+  "authors": [
+      "Moritz Schulte <mtesseract@silverratio.net>",
+      "Alex Mingoia <talk@alexmingoia.com>"
+  ],
+  "description": "Simple PureScript/Pux Dice Simulator (based on pux-starter-app)",
+  "main": "support/index.js",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "purescript-pux": "^3.0.0",
+    "purescript-debug": "^0.1.3",
+    "purescript-random": "^0.2.3",
+    "purescript-format": "^0.1.0"
+  }
+}
